@@ -5,7 +5,7 @@
 include config.mk
 
 SRC = my_print.c shadowlib.c
-OBJ = ${SRC:%.c=%.o}
+OBJ = ${SRC:.c=.o}
 
 all: options shadowlib
 
