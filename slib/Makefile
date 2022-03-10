@@ -17,10 +17,6 @@ options:
 	@echo "CC       = ${CC}"
 	@echo
 
-my_print.o: my_print.h
-
-slib_print.o: slib_print.h
-
 ${OBJ}: config.mk
 
 libslib.a: ${OBJ}

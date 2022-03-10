@@ -17,8 +17,6 @@ options:
 	@echo "CC       = ${CC}"
 	@echo
 
-my_print.o: my_print.h
-
 ${OBJ}: config.mk
 
 shadowlib: ${OBJ}
