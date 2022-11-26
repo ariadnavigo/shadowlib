@@ -11,6 +11,8 @@ called by the executable ``shadowlib``, despite it being used internally by the
 library itself! Yes, the library grabs the _executable's_ version of 
 ``my_print()``.
 
+**This repository is no longer actively maintained.**
+
 ## Build
 
 To build this demo, you need:
